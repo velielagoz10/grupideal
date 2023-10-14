@@ -6,14 +6,24 @@ body {
 }
 
 .logo_img {
-  width: 90px;
+  width: 99px;
 }
 .btn_stil {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .bgst2 {
-  background-color: #7d7c7c;
+  background-color: #8eaccd;
+}
+.img_slider {
+  width: 100%;
+  height: 35rem;
+}
+@media (max-width: 575px) {
+  .img_slider {
+    width: 100%;
+    height: 15rem;
+  }
 }
 
 /* ................buton animasyon......... */
