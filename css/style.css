@@ -1,0 +1,58 @@
+* {
+  font-family: "Alike";
+}
+body {
+  background-color: #f1efef;
+}
+
+.logo_img {
+  width: 90px;
+}
+.btn_stil {
+  font-size: 14px;
+}
+
+.bgst2 {
+  background-color: #7d7c7c;
+}
+
+/* ................buton animasyon......... */
+
+/* Normal durumda animasyonu etkinleştirmek için sınıfa "animated" ekledik. */
+.animated {
+  animation-duration: 1s; /* Animasyon süresi */
+  animation-fill-mode: both; /* Animasyonun başlangıç ve bitiş değerlerini sakla */
+}
+
+/* Hover durumunda animasyonu uygula */
+.animated:hover {
+  animation-name: jello; /* Kullanmak istediğiniz animasyonun adı */
+}
+
+/* ................icon animasyon......... */
+
+/* CSS */
+/* Hover üzerine gelindiğinde animasyonu uygula */
+.icon-container:hover {
+  animation-duration: 1s; /* Animasyon süresi */
+  animation-fill-mode: both; /* Animasyonun başlangıç ve bitiş değerlerini sakla */
+  animation-name: bounce; /* Kullanmak istediğiniz animasyonun adı */
+}
+
+.icon-container {
+  display: inline-block;
+  margin-right: 3px; /* İconlar arasında 10px sağ boşluk bırakır */
+}
+
+/* ................logo animasyon......... */
+
+/* Normal durumda animasyonu etkinleştirmek için sınıfa "animated" ekledik. */
+.logo_animated {
+  animation-duration: 1s; /* Animasyon süresi */
+  animation-fill-mode: both; /* Animasyonun başlangıç ve bitiş değerlerini sakla */
+}
+
+/* Hover durumunda animasyonu uygula */
+.logo_animated:hover {
+  animation-name: flip; /* Kullanmak istediğiniz animasyonun adı */
+}
