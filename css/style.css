@@ -82,3 +82,107 @@ body {
 .logo_animated:hover {
   animation-name: flip; /* Kullanmak istediğiniz animasyonun adı */
 }
+
+/*..............................  ürünler style  .......................... */
+.urun_img {
+  width: 100%;
+  height: 100%;
+}
+.tek_urun {
+  margin: 15px 20px;
+  padding: 20px 0px;
+  border-bottom: 3px solid #b0c0aa;
+}
+.urun_detay_sol {
+  height: 217px;
+  float: left;
+  width: 172px;
+  margin-right: 60px;
+  text-align: center;
+  line-height: 217px;
+  position: relative;
+  border: 1px solid #dadada;
+}
+
+.urun_detay_sol > a > img {
+  max-height: 200px;
+  max-width: 150px;
+  vertical-align: middle;
+}
+
+.urun_detay_sag {
+  float: left;
+  width: 70%;
+}
+
+.urun_detay_sag table tr {
+  font-size: 15px;
+  margin: 5px 20px 20px 0px;
+  font-weight: 600;
+  line-height: 34px;
+}
+
+.urun_detay_sag table tr td:first-child {
+  text-align: right;
+  color: rgb(68, 68, 68);
+  font-weight: 500;
+}
+
+.urun_detay_sag table tr td:last-child {
+  font-style: italic;
+  padding-left: 10px;
+  text-align: left;
+  font-weight: 600;
+}
+.urun_adi {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 1px solid #dadada;
+}
+
+@media screen and (max-width: 953px) {
+  .urunler_ikon,
+  .tesisler_ikon {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .urun_detay_sol {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20%;
+  }
+
+  .urun_detay_sag {
+    float: none;
+    width: auto;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .ik_baslik_kendi {
+    font-size: 18px;
+    clear: both;
+    margin: 0px 10px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .urun_detay_sag {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .urun_detay_sag table tr td:last-child {
+    font-size: 13px;
+  }
+
+  .urun_detay_sag table tr td:first-child {
+    font-size: 13px;
+  }
+}
