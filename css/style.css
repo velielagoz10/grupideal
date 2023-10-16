@@ -36,6 +36,10 @@ body {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-size: 18px;
+  margin-top: 20%;
+}
+.card-style {
+  max-width: 60%;
 }
 
 /* ................animated animasyon......... */
