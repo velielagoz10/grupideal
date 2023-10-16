@@ -14,7 +14,8 @@ body {
 }
 
 .bgst2 {
-  background-color: #8eaccd;
+  background-color: #a8a196;
+  border-color: #f0de36 !important;
 }
 .img_slider {
   width: 100%;
