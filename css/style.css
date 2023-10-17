@@ -2,7 +2,7 @@
   font-family: "Alike";
 }
 body {
-  background-color: #f1efef;
+  background-color: #fcffe7;
 }
 
 .logo_img {
@@ -14,7 +14,7 @@ body {
 }
 
 .bgst2 {
-  background-color: #a8a196;
+  background-color: #9db2bf;
   border-color: #f0de36 !important;
 }
 .img_slider {
@@ -185,4 +185,9 @@ body {
   .urun_detay_sag table tr td:first-child {
     font-size: 13px;
   }
+}
+/*..............................  contact style  .......................... */
+
+.bg-dark {
+  background: #085e7d !important;
 }
