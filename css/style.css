@@ -2,7 +2,7 @@
   font-family: "Alike";
 }
 body {
-  background-color: #fcffe7;
+  background-color: #f7f5f2;
 }
 
 .logo_img {
@@ -190,4 +190,38 @@ body {
 
 .bg-dark {
   background: #085e7d !important;
+}
+/*..............................  iletişim bilgileri style  .......................... */
+
+.bilgi_sol span {
+  font-size: 25px;
+  color: black;
+}
+.bilgi_sol i {
+  font-size: 40px;
+  color: brown;
+}
+
+.bilgi_sol span:hover {
+  color: blue;
+}
+
+.bilgi_sag span {
+  font-size: 25px;
+  color: black;
+}
+.bilgi_sag i {
+  font-size: 40px;
+  color: brown;
+}
+.bilgi_sag span:hover {
+  color: blue !important;
+}
+@media (max-width: 768px) {
+  .bilgi_sol span {
+    font-size: 20px;
+  }
+  .bilgi_sag span {
+    font-size: 20px;
+  }
 }
