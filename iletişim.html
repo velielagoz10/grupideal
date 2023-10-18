@@ -11,23 +11,27 @@
     <!-- ...Bootstrap icons link... -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
     <!-- ...font-awesome link... -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
       integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer" />
+      referrerpolicy="no-referrer"
+    />
     <!-- ...google font... -->
     <link
       href="https://fonts.googleapis.com/css?family=Alike"
-      rel="stylesheet" />
+      rel="stylesheet"
+    />
 
     <!-- ...Animate.css link... -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
     <!-- ...pc css... -->
     <link rel="stylesheet" href="css/style.css" />
@@ -35,7 +39,7 @@
   </head>
   <body>
     <!--....................... header............... -->
-    <header>
+    <header class="animate__animated animate__fadeInDown">
       <div class="container-fluid m-0 h3 d-none d-sm-block">
         <div class="row mt-2 mb-1 mx-2">
           <div class="col"></div>
@@ -63,7 +67,8 @@
       </div>
       <!-- (border border-4 = Kenarlığın genişliği) (border-primary = renk) (rounded = yuvarlatılmış köşeler) -->
       <nav
-        class="navbar navbar-expand-sm bgst2 navbar-dark border border-5 rounded">
+        class="navbar navbar-expand-sm bgst2 navbar-dark border border-5 rounded"
+      >
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
             <img class="logo_img logo_animated" src="img/logo.png" alt="Logo" />
@@ -72,62 +77,71 @@
             class="navbar-toggler custom-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapsibleNavbar">
+            data-bs-target="#collapsibleNavbar"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div
             class="collapse navbar-collapse justify-content-end"
-            id="collapsibleNavbar">
+            id="collapsibleNavbar"
+          >
             <ul class="navbar-nav">
               <li class="nav-item mt-2 mt-sm-0 me-2 d-grid gap-2">
                 <a
                   class="btn_stil btn btn-lg btn-outline-warning text-light"
-                  href="index.html">
+                  href="index.html"
+                >
                   <div class="buton_animated">AnaSayfa</div>
                 </a>
               </li>
               <li class="nav-item mt-2 mt-sm-0 mt me-2 d-grid gap-2">
                 <a
                   class="btn_stil btn btn-lg btn-outline-warning text-light"
-                  href="Urunler.html">
+                  href="Urunler.html"
+                >
                   <div class="buton_animated">Ürünler</div>
                 </a>
               </li>
               <li class="nav-item mt-2 mt-sm-0 mt me-2 d-grid gap-2">
                 <a
                   class="btn_stil btn btn-lg btn-outline-warning text-light active"
-                  href="#"
+                  href="iletişim.html"
                   ><div class="buton_animated">İletişim</div></a
                 >
               </li>
               <li class="nav-item mt-2 mt-sm-0 me-2 d-grid gap-2">
                 <a
                   class="btn_stil btn btn-lg btn-outline-warning text-light"
-                  href="#">
+                  href="#"
+                >
                   <div class="buton_animated">Hakkımızda</div>
                 </a>
               </li>
               <div
-                class="d-block d-sm-none nav-item mt-2 me-2 d-flex gap-2 justify-content-center">
+                class="d-block d-sm-none nav-item mt-2 me-2 d-flex gap-2 justify-content-center"
+              >
                 <div class="icon_animated">
                   <a href="#" class="animated-icon">
                     <i
                       class="bi bi-facebook"
-                      style="font-size: 2rem; color: #362fd9"></i>
+                      style="font-size: 2rem; color: #362fd9"
+                    ></i>
                   </a>
                 </div>
                 <div class="icon_animated">
                   <a href="#" class="animated-icon">
                     <i
                       class="bi bi-instagram"
-                      style="font-size: 2rem; color: #fd1d1d"></i>
+                      style="font-size: 2rem; color: #fd1d1d"
+                    ></i>
                   </a>
                 </div>
                 <div class="icon_animated">
                   <a href="#" class="animated-icon">
                     <i
                       class="bi bi-whatsapp"
-                      style="font-size: 2rem; color: #28d146"></i>
+                      style="font-size: 2rem; color: #28d146"
+                    ></i>
                   </a>
                 </div>
               </div>
@@ -139,10 +153,12 @@
     <!--....................... Main............... -->
 
     <main class="mt-5">
-      <div class="container my-4">
-        <h2 class="my-3">Bize Ulaşın</h2>
+      <div class="container">
+        <h2 class="my-3 animate__animated animate__bounceInLeft">
+          Bize Ulaşın
+        </h2>
         <div class="row g-2">
-          <div class="col-md-6">
+          <div class="col-md-6 animate__animated animate__bounceInLeft">
             <div class="card bg-dark">
               <div class="card-body">
                 <div class="alert alert-warning">Lütfen formu doldurun.</div>
@@ -153,7 +169,8 @@
                       type="email"
                       name="email"
                       id="email"
-                      class="form-control" />
+                      class="form-control"
+                    />
                   </div>
                   <div class="col-md-6">
                     <label for="name" class="form-label"> İsim</label>
@@ -161,7 +178,8 @@
                       type="text"
                       name="name"
                       id="name"
-                      class="form-control" />
+                      class="form-control"
+                    />
                   </div>
                   <div class="col-md-12">
                     <label for="name" class="form-label">Telefon</label>
@@ -169,7 +187,8 @@
                       type="text"
                       name="phone"
                       id="phone"
-                      class="form-control" />
+                      class="form-control"
+                    />
                   </div>
                   <div class="col-md-12">
                     <label for="subject" class="form-label">Konu</label>
@@ -177,14 +196,16 @@
                       type="text"
                       name="subject"
                       id="subject"
-                      class="form-control" />
+                      class="form-control"
+                    />
                   </div>
                   <div class="col-md-12">
                     <label for="message" class="form-label">Mesaj</label>
                     <textarea
                       name="message"
                       id="message"
-                      class="form-control"></textarea>
+                      class="form-control"
+                    ></textarea>
                   </div>
                   <div class="col-12">
                     <button class="btn btn-outline-warning" style="width: 100%">
@@ -195,7 +216,9 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 border border-5">
+          <div
+            class="col-md-6 border border-5 animate__animated animate__fadeInRight"
+          >
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.5685969501274!2d28.308399330190433!3d39.719224370730245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b6381002e2479f%3A0x4e6578f9381799af!2s%C4%B0deal%20Maden!5e0!3m2!1str!2str!4v1697526946106!5m2!1str!2str"
               width="100%"
@@ -203,7 +226,8 @@
               style="border: 0"
               allowfullscreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
       </div>
@@ -236,7 +260,8 @@
           <div class="col mb-3">
             <a
               href="mailto:bilgi@idealmadencilik.com"
-              class="text-decoration-none">
+              class="text-decoration-none"
+            >
               <i class="bi bi-envelope-at">
                 <span>bilgi@idealmadencilik.com</span>
               </i>
@@ -269,7 +294,8 @@
           <div class="col mb-3">
             <a
               href="mailto:bilgi@idealmadencilik.com"
-              class="text-decoration-none">
+              class="text-decoration-none"
+            >
               <i class="bi bi-envelope-at">
                 <span>bilgi@idealmadencilik.com</span>
               </i>
@@ -289,19 +315,22 @@
               <img
                 class="logo_img icon_animated"
                 src="img/polatLogo.png"
-                alt="polatLogo" />
+                alt="polatLogo"
+              />
             </a>
             <a class="navbar-brand ms-2" href="index.html">
               <img
                 class="logo_img icon_animated"
                 src="img/polyakLogo.png"
-                alt="polyakLogo" />
+                alt="polyakLogo"
+              />
             </a>
             <a class="navbar-brand ms-2" href="index.html">
               <img
                 class="logo_img icon_animated"
                 src="img/alaLogo.png"
-                alt="alaLogo" />
+                alt="alaLogo"
+              />
             </a>
           </div>
         </div>
