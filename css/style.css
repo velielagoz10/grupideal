@@ -82,6 +82,19 @@ body {
 .logo_animated:hover {
   animation-name: flip; /* Kullanmak istediğiniz animasyonun adı */
 }
+/* ................Ürünler animasyon......... */
+@media (min-width: 768px) {
+  .form_animated {
+    animation-duration: 1s; /* Animasyon süresi */
+    animation-fill-mode: both; /* Animasyonun başlangıç ve bitiş değerlerini sakla */
+    animation-name: bounceInLeft; /* Kullanmak istediğiniz animasyonun adı */
+  }
+  .harita_animated {
+    animation-duration: 1s; /* Animasyon süresi */
+    animation-fill-mode: both; /* Animasyonun başlangıç ve bitiş değerlerini sakla */
+    animation-name: fadeInRight; /* Kullanmak istediğiniz animasyonun adı */
+  }
+}
 
 /*..............................  ürünler style  .......................... */
 .urun_img {
