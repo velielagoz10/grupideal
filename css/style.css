@@ -238,3 +238,27 @@ body {
     font-size: 17px;
   }
 }
+/*..............................  Yukarı ok tuşu style  .......................... */
+#goTopButton {
+  display: none;
+  position: fixed;
+  bottom: 45px;
+  right: 25px;
+  font-size: 50px;
+  color: #ff0000;
+  cursor: pointer;
+  transition: color 0.3s; /* Hover'da renk değişimi için geçiş efekti ekledik */
+}
+
+@media (max-width: 768px) {
+  #goTopButton {
+    display: none;
+    position: fixed;
+    bottom: 45px;
+    right: 10px;
+    font-size: 30px;
+    color: #ff0000;
+    cursor: pointer;
+    transition: color 0.3s; /* Hover'da renk değişimi için geçiş efekti ekledik */
+  }
+}
