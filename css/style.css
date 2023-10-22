@@ -257,22 +257,22 @@ body {
 #goTopButton {
   display: none;
   position: fixed;
-  bottom: 45px;
-  right: 25px;
-  font-size: 40px;
-  color: #ff0000;
+  bottom: 58px;
+  right: 10px;
   cursor: pointer;
   transition: color 0.3s; /* Hover'da renk değişimi için geçiş efekti ekledik */
+}
+#goTopButton i img {
+  height: 45px;
+  width: auto;
 }
 
 @media (max-width: 768px) {
   #goTopButton {
     display: none;
     position: fixed;
-    bottom: 45px;
+    bottom: 58px;
     right: 10px;
-    font-size: 30px;
-    color: #ff0000;
     cursor: pointer;
     transition: color 0.3s; /* Hover'da renk değişimi için geçiş efekti ekledik */
   }
