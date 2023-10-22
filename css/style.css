@@ -32,7 +32,7 @@ body {
 }
 
 #footer-style {
-  background-color: #085e7d;
+  background-color: rgba(8, 94, 125, 0.7);
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-size: 18px;
@@ -44,7 +44,7 @@ body {
     position: fixed;
     bottom: 0;
     left: 0;
-    background-color: #085e7d;
+    background-color: rgba(8, 94, 125, 0.7);
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-size: 18px;
@@ -255,12 +255,16 @@ body {
 }
 /*..............................  Yukarı ok tuşu style  .......................... */
 #goTopButton {
+  opacity: 0.6;
   display: none;
   position: fixed;
   bottom: 58px;
   right: 10px;
   cursor: pointer;
   transition: color 0.3s; /* Hover'da renk değişimi için geçiş efekti ekledik */
+}
+#goTopButton:hover {
+  opacity: 1;
 }
 #goTopButton i img {
   height: 45px;
@@ -269,6 +273,7 @@ body {
 
 @media (max-width: 768px) {
   #goTopButton {
+    opacity: 0.6;
     display: none;
     position: fixed;
     bottom: 58px;
