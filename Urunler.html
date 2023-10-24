@@ -392,7 +392,8 @@
           <div class="col-12 p">
             <div class="text-light text-center align-items-center">
               <span style="white-space: nowrap"
-                >&copy; 2023 Grup İdeal Madencilik</span
+                >&copy;2011-<span id="copyright-year">2020</span> Grup İdeal
+                Madencilik</span
               ><span>-Tüm hakları saklıdır.</span>
               <!-- Button trigger modal -->
               <div class="text-end">
@@ -506,11 +507,15 @@
         <img src="img/png/ok.png" alt="Sayfa başına dön"
       /></i>
     </div>
+    <!--... Yıl JavaScript ...-->
+    <script>
+      var currentYear = new Date().getFullYear();
+      var copyrightYearElement = document.getElementById("copyright-year");
+      copyrightYearElement.textContent = currentYear;
+    </script>
 
     <!--... JavaScript ...-->
-
     <script src="css/JavaScript.js"></script>
-
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
