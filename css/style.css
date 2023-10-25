@@ -285,9 +285,16 @@ body {
 .galeri {
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
+.iletişim-shadow {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
 
 @media (max-width: 768px) {
   .galeri {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  .iletişim-shadow {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
       rgba(0, 0, 0, 0.22) 0px 10px 10px;
   }
