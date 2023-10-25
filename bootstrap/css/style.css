@@ -1,0 +1,312 @@
+* {
+  font-family: "Alike";
+}
+body {
+  background-color: #f7f5f2;
+}
+
+.logo_img {
+  width: 99px;
+}
+.btn_stil {
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.bgst2 {
+  background-color: rgba(157, 178, 191, 0.9);
+  border-color: #f0de36 !important;
+}
+.img_slider {
+  width: 100%;
+  height: 35rem;
+}
+@media (max-width: 575px) {
+  .img_slider {
+    width: 100%;
+    height: 17rem;
+  }
+  #footer-style {
+    font-size: 15px;
+  }
+}
+
+#footer-style {
+  background-color: rgba(8, 94, 125, 0.7);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 18px;
+  margin-top: 20%;
+  width: 100%;
+}
+@media (min-width: 3330px) {
+  #footer-style {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(8, 94, 125, 0.7);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 18px;
+    margin-top: 20%;
+    width: 100%;
+  }
+}
+
+#footer-style-hakkımzda {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(8, 94, 125, 0.7);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 18px;
+  margin-top: 20%;
+  width: 100%;
+}
+
+.card-style {
+  max-width: 60%;
+}
+
+/* ................animated animasyon......... */
+
+/* Normal durumda animasyonu etkinleştirmek için sınıfa "animated" ekledik. */
+.buton_animated {
+  animation-duration: 1s; /* Animasyon süresi */
+  animation-fill-mode: both; /* Animasyonun başlangıç ve bitiş değerlerini sakla */
+}
+
+/* Hover durumunda animasyonu uygula */
+.buton_animated:hover {
+  animation-name: jello; /* Kullanmak istediğiniz animasyonun adı */
+}
+
+/* ................icon animasyon......... */
+
+/* CSS */
+/* Hover üzerine gelindiğinde animasyonu uygula */
+.icon_animated:hover {
+  animation-duration: 1s; /* Animasyon süresi */
+  animation-fill-mode: both; /* Animasyonun başlangıç ve bitiş değerlerini sakla */
+  animation-name: bounce; /* Kullanmak istediğiniz animasyonun adı */
+}
+
+.icon_animated {
+  display: inline-block;
+  margin-right: 3px; /* İconlar arasında 10px sağ boşluk bırakır */
+}
+
+/* ................logo animasyon......... */
+
+/* Normal durumda animasyonu etkinleştirmek için sınıfa "animated" ekledik. */
+.logo_animated {
+  animation-duration: 1s; /* Animasyon süresi */
+  animation-fill-mode: both; /* Animasyonun başlangıç ve bitiş değerlerini sakla */
+}
+
+/* Hover durumunda animasyonu uygula */
+.logo_animated:hover {
+  animation-name: flip; /* Kullanmak istediğiniz animasyonun adı */
+}
+/* ................Ürünler animasyon......... */
+@media (min-width: 768px) {
+  .form_animated {
+    animation-duration: 1s; /* Animasyon süresi */
+    animation-fill-mode: both; /* Animasyonun başlangıç ve bitiş değerlerini sakla */
+    animation-name: bounceInLeft; /* Kullanmak istediğiniz animasyonun adı */
+  }
+  .harita_animated {
+    animation-duration: 1s; /* Animasyon süresi */
+    animation-fill-mode: both; /* Animasyonun başlangıç ve bitiş değerlerini sakla */
+    animation-name: fadeInRight; /* Kullanmak istediğiniz animasyonun adı */
+  }
+}
+
+/*..............................  ürünler style  .......................... */
+.urun_img {
+  width: 100%;
+  height: 100%;
+}
+.tek_urun {
+  margin: 15px 20px;
+  padding: 20px 0px;
+  border-bottom: 3px solid #b0c0aa;
+}
+.urun_detay_sol {
+  height: 217px;
+  float: left;
+  width: 172px;
+  margin-right: 60px;
+  text-align: center;
+  line-height: 217px;
+  position: relative;
+  border: 1px solid #dadada;
+}
+
+.urun_detay_sol > a > img {
+  max-height: 200px;
+  max-width: 150px;
+  vertical-align: middle;
+}
+
+.urun_detay_sag {
+  float: left;
+  width: 70%;
+}
+
+.urun_detay_sag table tr {
+  font-size: 15px;
+  margin: 5px 20px 20px 0px;
+  font-weight: 600;
+  line-height: 34px;
+}
+
+.urun_detay_sag table tr td:first-child {
+  text-align: right;
+  color: rgb(68, 68, 68);
+  font-weight: 500;
+}
+
+.urun_detay_sag table tr td:last-child {
+  font-style: italic;
+  padding-left: 10px;
+  text-align: left;
+  font-weight: 600;
+}
+.urun_adi {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 1px solid #dadada;
+}
+
+@media screen and (max-width: 953px) {
+  .urunler_ikon,
+  .tesisler_ikon {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .urun_detay_sol {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20%;
+  }
+
+  .urun_detay_sag {
+    float: none;
+    width: auto;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .ik_baslik_kendi {
+    font-size: 18px;
+    clear: both;
+    margin: 0px 10px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .urun_detay_sag {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .urun_detay_sag table tr td:last-child {
+    font-size: 13px;
+  }
+
+  .urun_detay_sag table tr td:first-child {
+    font-size: 13px;
+  }
+}
+/*..............................  contact style  .......................... */
+
+.bg-dark {
+  background: #085e7d !important;
+}
+/*..............................  iletişim bilgileri style  .......................... */
+
+.bilgi_sol span {
+  font-size: 25px;
+  color: black;
+}
+.bilgi_sol i {
+  font-size: 40px;
+  color: brown;
+}
+
+.bilgi_sol span:hover {
+  color: blue;
+}
+
+.bilgi_sag span {
+  font-size: 25px;
+  color: black;
+}
+.bilgi_sag i {
+  font-size: 40px;
+  color: brown;
+}
+.bilgi_sag span:hover {
+  color: blue !important;
+}
+@media (max-width: 768px) {
+  .bilgi_sol span {
+    font-size: 17px;
+  }
+  .bilgi_sag span {
+    font-size: 17px;
+  }
+}
+/*..............................  Yukarı ok tuşu style  .......................... */
+#goTopButton {
+  opacity: 0.6;
+  display: none;
+  position: fixed;
+  bottom: 58px;
+  right: 10px;
+  cursor: pointer;
+  transition: color 0.3s; /* Hover'da renk değişimi için geçiş efekti ekledik */
+}
+#goTopButton:hover {
+  opacity: 1;
+}
+#goTopButton i img {
+  height: 45px;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  #goTopButton {
+    opacity: 0.6;
+    display: none;
+    position: fixed;
+    bottom: 58px;
+    right: 10px;
+    cursor: pointer;
+    transition: color 0.3s; /* Hover'da renk değişimi için geçiş efekti ekledik */
+  }
+}
+.galeri {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+@media (max-width: 768px) {
+  .galeri {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+}
+
+.galeri div a img:hover {
+  animation-name: pulse; /* Kullanmak istediğiniz animasyonun adı */
+  animation-duration: 1s; /* Animasyon süresi */
+  animation-fill-mode: forwards; /* Animasyonun başlangıç ve bitiş değerlerini sakla */
+}
