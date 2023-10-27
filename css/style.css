@@ -129,7 +129,7 @@ body {
   text-align: center;
   line-height: 217px;
   position: relative;
-  border: 1px solid #dadada;
+  /* border: 1px solid #dadada; */
 }
 
 .urun_detay_sol > a > img {
