@@ -39,6 +39,14 @@ body {
   margin-top: 25%;
   width: 100%;
 }
+#footer-style-galeri {
+  background-color: rgba(8, 94, 125, 0.7);
+  padding-top: 1rem;
+  padding-bottom: 3px;
+  font-size: 18px;
+  margin-top: 15%;
+  width: 100%;
+}
 @media (min-width: 3330px) {
   #footer-style {
     position: fixed;
