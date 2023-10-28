@@ -273,6 +273,9 @@ body {
 }
 #goTopButton:hover {
   opacity: 1;
+  animation-name: pulse; /* Kullanmak istediğiniz animasyonun adı */
+  animation-duration: 1s; /* Animasyon süresi */
+  animation-fill-mode: forwards; /* Animasyonun başlangıç ve bitiş değerlerini sakla */
 }
 #goTopButton i img {
   height: 45px;
@@ -309,6 +312,11 @@ body {
 }
 
 .galeri div a img:hover {
+  animation-name: pulse; /* Kullanmak istediğiniz animasyonun adı */
+  animation-duration: 1s; /* Animasyon süresi */
+  animation-fill-mode: forwards; /* Animasyonun başlangıç ve bitiş değerlerini sakla */
+}
+.urun_detay_sol a img:hover {
   animation-name: pulse; /* Kullanmak istediğiniz animasyonun adı */
   animation-duration: 1s; /* Animasyon süresi */
   animation-fill-mode: forwards; /* Animasyonun başlangıç ve bitiş değerlerini sakla */
