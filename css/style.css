@@ -65,7 +65,7 @@ body {
   max-width: 60%;
 }
 
-/* ................animated animasyon......... */
+/* ...animated animasyon...*/
 
 /* Normal durumda animasyonu etkinleştirmek için sınıfa "animated" ekledik. */
 .buton_animated {
@@ -78,7 +78,7 @@ body {
   animation-name: jello; /* Kullanmak istediğiniz animasyonun adı */
 }
 
-/* ................icon animasyon......... */
+/* ...icon animasyon... */
 
 /* CSS */
 /* Hover üzerine gelindiğinde animasyonu uygula */
@@ -93,7 +93,7 @@ body {
   margin-right: 3px; /* İconlar arasında 10px sağ boşluk bırakır */
 }
 
-/* ................logo animasyon......... */
+/* ...logo animasyon... */
 
 /* Normal durumda animasyonu etkinleştirmek için sınıfa "animated" ekledik. */
 .logo_animated {
@@ -105,7 +105,7 @@ body {
 .logo_animated:hover {
   animation-name: flip; /* Kullanmak istediğiniz animasyonun adı */
 }
-/* ................Ürünler animasyon......... */
+/* ...Ürünler animasyon...*/
 @media (min-width: 768px) {
   .form_animated {
     animation-duration: 1s; /* Animasyon süresi */
@@ -119,7 +119,7 @@ body {
   }
 }
 
-/*..............................  ürünler style  .......................... */
+/*....ürünler style...*/
 .urun_img {
   width: 100%;
   height: 100%;
@@ -222,12 +222,12 @@ body {
     font-size: 13px;
   }
 }
-/*..............................  contact style  .......................... */
+/*...contact style... */
 
 .bg-dark {
   background: #085e7d !important;
 }
-/*..............................  iletişim bilgileri style  .......................... */
+/*...iletişim bilgileri style... */
 
 .bilgi_sol span {
   font-size: 25px;
@@ -261,7 +261,7 @@ body {
     font-size: 17px;
   }
 }
-/*..............................  Yukarı ok tuşu style  .......................... */
+/*...Yukarı ok tuşu style ... */
 #goTopButton {
   opacity: 0.6;
   display: none;
