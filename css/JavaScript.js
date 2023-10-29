@@ -61,7 +61,7 @@ window.addEventListener("scroll", function () {
   var icon = document.getElementById("iletisim-icon");
 
   // Ekran genişliğini kontrol etmek için window.innerWidth kullanılır.
-  if (window.innerWidth > 768) {
+  if (window.innerWidth > 575) {
     // Örnek bir eşik genişlik (768 piksel)
     if (window.scrollY > scrollThreshold) {
       icon.style.display = "block";

@@ -332,6 +332,7 @@ body {
   align-items: center !important;
   gap: 10px; /* Iconlar arasında boşluk eklemek için */
   /* Diğer stil özelliklerini burada tanımlayabilirsiniz */
+  z-index: 5;
 }
 .icon-container {
   display: flex;
