@@ -321,3 +321,27 @@ body {
   animation-duration: 1s; /* Animasyon süresi */
   animation-fill-mode: forwards; /* Animasyonun başlangıç ve bitiş değerlerini sakla */
 }
+
+#iletisim-icon {
+  position: fixed;
+  top: 50%; /* Sayfanın yüksekliğinin yarısına sabitlemek için */
+  right: 20px; /* Sağ kenardan belirli bir mesafede olacak */
+  transform: translateY(-50%); /* Yüksekliği merkezlemek için */
+  display: none; /* Başlangıçta ikonu gizle */
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 10px; /* Iconlar arasında boşluk eklemek için */
+  /* Diğer stil özelliklerini burada tanımlayabilirsiniz */
+}
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Iconlar arasında boşluk eklemek için */
+}
+
+.yan-icon:hover {
+  animation-name: pulse; /* Kullanmak istediğiniz animasyonun adı */
+  animation-duration: 1s; /* Animasyon süresi */
+  animation-fill-mode: forwards; /* Animasyonun başlangıç ve bitiş değerlerini sakla */
+}

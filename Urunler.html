@@ -37,7 +37,6 @@
 
     <!-- ...pc css... -->
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/resimanimasyon.css" />
     <!--... Lightbox2 ... -->
     <link rel="stylesheet" href="dist/css/lightbox.min.css" />
   </head>
@@ -179,8 +178,40 @@
         </div>
       </nav>
     </header>
+    <!--...yan icon... -->
+    <section>
+      <div id="iletisim-icon" class="animate__animated animate__backInDown">
+        <!-- İletişim ikonunuzun içeriği buraya gelecek -->
 
-    <!--....................... Main............... -->
+        <div class="icon-container">
+          <div class="yan-icon">
+            <a href="#" class="animated-icon">
+              <img
+                src="img/png/facebook.png"
+                alt="facebook"
+                style="width: 35px" />
+            </a>
+          </div>
+          <div class="yan-icon">
+            <a href="#" class="animated-icon" target="_blank">
+              <img
+                src="img/png/instagram.png"
+                alt="instagram"
+                style="width: 35px" />
+            </a>
+          </div>
+          <div class="yan-icon">
+            <a href="#" class="animated-icon">
+              <img
+                src="img/png/whastsapp.png"
+                alt="whatsapp"
+                style="width: 35px" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--.... Main... -->
     <main class="mt-5">
       <div class="container">
         <div
@@ -525,11 +556,13 @@
         </div>
       </div>
     </section>
-    <div id="goTopButton" class="back-to-top">
-      <i onclick="goToTop()">
-        <img src="img/png/ok.png" alt="Sayfa başına dön"
-      /></i>
-    </div>
+    <section>
+      <div id="goTopButton" class="back-to-top">
+        <i onclick="goToTop()">
+          <img src="img/png/ok.png" alt="Sayfa başına dön"
+        /></i>
+      </div>
+    </section>
     <!--... Yıl JavaScript ...-->
     <script>
       var currentYear = new Date().getFullYear();

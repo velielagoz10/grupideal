@@ -55,3 +55,21 @@ $(document).ready(function () {
     });
   });
 });
+/*......................  yan icon .................. */
+window.addEventListener("scroll", function () {
+  var scrollThreshold = 60;
+  var icon = document.getElementById("iletisim-icon");
+
+  // Ekran genişliğini kontrol etmek için window.innerWidth kullanılır.
+  if (window.innerWidth > 768) {
+    // Örnek bir eşik genişlik (768 piksel)
+    if (window.scrollY > scrollThreshold) {
+      icon.style.display = "block";
+    } else {
+      icon.style.display = "none";
+    }
+  } else {
+    // Eğer ekran genişliği belirtilen eşikten küçükse, ikonu gizleyin.
+    icon.style.display = "none";
+  }
+});
