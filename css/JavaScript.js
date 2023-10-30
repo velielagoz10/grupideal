@@ -57,19 +57,15 @@ $(document).ready(function () {
 });
 /*......................  yan icon .................. */
 window.addEventListener("scroll", function () {
+  // İkonun görünür hale getirilmesi gereken kaydırma mesafesi (örneğin, 200 piksel aşağıya inince).
   var scrollThreshold = 60;
   var icon = document.getElementById("iletisim-icon");
 
-  // Ekran genişliğini kontrol etmek için window.innerWidth kullanılır.
-  if (window.innerWidth > 575) {
-    // Örnek bir eşik genişlik (768 piksel)
-    if (window.scrollY > scrollThreshold) {
-      icon.style.display = "block";
-    } else {
-      icon.style.display = "none";
-    }
+  if (window.scrollY > scrollThreshold) {
+    // İletişim ikonunu görünür yapın.
+    icon.style.display = "block";
   } else {
-    // Eğer ekran genişliği belirtilen eşikten küçükse, ikonu gizleyin.
+    // İletişim ikonunu gizleyin.
     icon.style.display = "none";
   }
 });
