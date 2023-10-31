@@ -726,9 +726,15 @@
       copyrightYearElement.textContent = currentYear;
     </script>
       <script>
-      window.alert(
-        "Merhaba! Sitemiz şu anda geliştirme aşamasında. Bazı Fonksiyonlar Çalışmamaktadır. Anlayışınız için teşekkür ederiz. "
-      );
+     if (!document.cookie.includes("messageShown=true")) {
+    // Mesajı görüntüle
+    window.alert("Merhaba! Sitemiz şu anda geliştirme aşamasında. Bazı Fonksiyonlar Çalışmamaktadır. Anlayışınız için teşekkür ederiz.");
+    
+    // Çerez oluştur ve bir yıl geçerli olsun
+    var expirationDate = new Date();
+    expirationDate.setFullYear(expirationDate.getFullYear() + 1);
+    document.cookie = "messageShown=true; expires=" + expirationDate.toUTCString();
+}
     </script>
 
     <!--... JavaScript ...-->
