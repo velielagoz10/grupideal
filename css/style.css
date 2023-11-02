@@ -3,9 +3,15 @@
 }
 body {
   background-color: #f7f5f2;
-  background-image: url(../img/arka_img.png);
-  background-size: contain;
-  background-attachment: fixed;
+}
+
+@media (min-width: 700px) {
+  body {
+    background-color: #f7f5f2;
+    background-image: url(../img/arka_img.png);
+    background-size: contain;
+    background-attachment: fixed;
+  }
 }
 
 .logo_img {
