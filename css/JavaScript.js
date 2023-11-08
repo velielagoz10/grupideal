@@ -69,3 +69,18 @@ window.addEventListener("scroll", function () {
     icon.style.display = "none";
   }
 });
+
+var pdfUrl = "../img/fatura-bilgileri.pdf";
+
+document
+  .getElementById("pdfDownloadButton")
+  .addEventListener("click", function () {
+    var a = document.createElement("a");
+    a.href = pdfUrl;
+    a.download = "Grup İdeal Madencilik Fatura Bilgileri.pdf"; // İndirilen dosyanın adı
+    a.target = "_blank";
+    a.style.display = "none";
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  });
