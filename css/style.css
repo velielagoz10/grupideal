@@ -272,19 +272,19 @@ body {
 }
 /*...Yukarı ok tuşu style ... */
 #goTopButton {
-  opacity: 0.6;
+  opacity: 0.6 !important;
   display: none;
   position: fixed;
   bottom: 58px;
   right: 10px;
   cursor: pointer;
   transition: color 0.3s; /* Hover'da renk değişimi için geçiş efekti ekledik */
-}
-#goTopButton:hover {
-  opacity: 1;
-  animation-name: pulse; /* Kullanmak istediğiniz animasyonun adı */
+  animation-name: fadeInUpBig; /* Kullanmak istediğiniz animasyonun adı */
   animation-duration: 1s; /* Animasyon süresi */
   animation-fill-mode: forwards; /* Animasyonun başlangıç ve bitiş değerlerini sakla */
+}
+#goTopButton:hover {
+  opacity: 1 !important;
 }
 #goTopButton i img {
   height: 45px;
