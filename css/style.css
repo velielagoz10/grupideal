@@ -319,11 +319,18 @@ body {
       rgba(0, 0, 0, 0.22) 0px 10px 10px;
   }
 }
+.galeri div a img {
+  border: 4px solid #fefae0;
+  transition-duration: 1s;
+}
 
 .galeri div a img:hover {
-  animation-name: pulse; /* Kullanmak istediğiniz animasyonun adı */
-  animation-duration: 1s; /* Animasyon süresi */
-  animation-fill-mode: forwards; /* Animasyonun başlangıç ve bitiş değerlerini sakla */
+  border: 2px solid #fff;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-filter: none;
+  filter: none;
 }
 .urun_detay_sol a img:hover {
   animation-name: pulse; /* Kullanmak istediğiniz animasyonun adı */
