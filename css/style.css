@@ -320,12 +320,12 @@ body {
   }
 }
 .galeri div a img {
-  border: 4px solid #fefae0;
+  border: 4px solid #ffff;
   transition-duration: 1s;
 }
 
 .galeri div a img:hover {
-  border: 2px solid #fff;
+  border: 2px solid #ffff;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
