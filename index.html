@@ -400,7 +400,6 @@
                 id="filterInput"
                 class="form-control"
                 placeholder="İl / İlçe / Bayi  Ara"
-                aria-label="Bayi Ara"
                 aria-describedby="addon-wrapping"
                 autofocus
               />
@@ -726,16 +725,28 @@
       var copyrightYearElement = document.getElementById("copyright-year");
       copyrightYearElement.textContent = currentYear;
     </script>
-      <script>
-     if (!document.cookie.includes("messageShown=true")) {
-    // Mesajı görüntüle
-    window.alert("Merhaba! Sitemiz şu anda geliştirme aşamasında. Bazı Fonksiyonlar Çalışmamaktadır. Anlayışınız için teşekkür ederiz.");
-    
-    // Çerez oluştur ve bir yıl geçerli olsun
-    var expirationDate = new Date();
-    expirationDate.setFullYear(expirationDate.getFullYear() + 1);
-    document.cookie = "messageShown=true; expires=" + expirationDate.toUTCString();
-}
+
+    <script>
+      // if (!document.cookie.includes("messageShown=true")) {
+      //   // Mesajı görüntüle
+      //   window.alert(
+      //     "Merhaba! Sitemiz şu anda geliştirme aşamasında. Bazı Fonksiyonlar Çalışmamaktadır. Anlayışınız için teşekkür ederiz."
+      //   );
+
+      //   // Çerez oluştur ve bir yıl geçerli olsun
+      //   var expirationDate = new Date();
+      //   expirationDate.setFullYear(expirationDate.getFullYear() + 1);
+      //   document.cookie =
+      //     "messageShown=true; expires=" + expirationDate.toUTCString();
+      // }
+      document
+        .getElementById("filterInput")
+        .addEventListener("keydown", function (event) {
+          if (event.key === " ") {
+            event.preventDefault();
+            alert("Boşluk tuşuna basamazsınız !");
+          }
+        });
     </script>
 
     <!--... JavaScript ...-->
